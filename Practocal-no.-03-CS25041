@@ -1,25 +1,67 @@
-<html>
-<title>practical 3</title>
-<body bgcolor="yellow"></body>
-<h1>Samyak Bhadke</h1>
-<h3>CS25041</h3>
-	<ol>
-	<li>ABC</li>
-	<li>XYZ</li>
-	<li>PQR</li>
-	</ol>
-	<ul>
-	<li>ABC</li>
-	<li>XYZ</li>
-	<li>PQR</li>
-	</ul>
-	<dl>
-        <dt>
-        <dd> smart </dd>
-        <dd> good </dd>
-	<dd> good in study </dd>
-	</dt>
-	</dl>
-	<a href="practical 3.html">Click here</a>
-	<img src="C:\Users\DELL\Downloads\71rFy1uRMoL.png" width="250" height="350">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Timetable</title>
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+        }
+        table {
+            margin: 0 auto; /* Centers the table */
+            border-collapse: collapse; /* Optional: makes the table look cleaner */
+        }
+        th, td {
+            padding: 10px;
+            text-align: center; /* Centers the text inside cells */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Timetable</h1>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+        </tr>
+        <!-- First 3 lectures -->
+        <tr>
+            <td>10:30 - 11:30</td>
+            <td>Maths</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td>11:30 - 12:30</td>
+            <td>English</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>12:30 - 1:30</td>
+            <td>History</td>
+            <td>Science</td>
+        </tr>
+
+        <!-- BREAK row -->
+        <tr>
+            <td><strong>BREAK</strong></td>
+            <td><strong>BREAK</strong></td>
+            <td><strong>BREAK</strong></td>
+        </tr>
+
+        <!-- After BREAK, 2 more lectures -->
+        <tr>
+            <td>2:30 - 3:30</td>
+            <td>Art</td>
+            <td>Geography</td>
+        </tr>
+        <tr>
+            <td>3:30 - 4:30</td>
+            <td>Science</td>
+            <td>Art</td>
+        </tr>
+    </table>
+
+</body>
 </html>
